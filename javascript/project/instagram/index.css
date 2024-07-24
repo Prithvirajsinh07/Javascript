@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+.container{
+    height: 700px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.main{
+    height: 100%;
+    width: 35%;
+
+}
+.main2{
+    height: 100%;
+    width: 35%;
+}
+.phone{
+    height:80%;
+
+}
+.inputs{
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+border-radius: 10px;
+margin: 10px;
+padding: 10px;
+}
+.log-in{
+    height: 35px;
+    width: 90%;
+    border-radius: 10px;
+    margin: auto;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+border: none;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+
+}
+.a-forgot{
+   text-align: center;
+   margin-top: 20px;
+   
+}
+.a-log{
+    font-weight:bold;
+}
+.form1{
+    border: 1px solid gray;
+}
+.get-app{
+    text-align: center;
+    margin-top: 20px;
+}
+.dont-have{
+    text-align: center;
+    border: 1px solid gray;
+    padding: 30px;
+    margin-top: 10px;
+    
+}
+.link-img{
+  text-align: center;
+  margin-top: 20px;
+}
+.play-store{
+height: 50px;
+width: 150px;
+
+}
+#spnId{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: gray;
+}
+.texes{
+    position: relative;
+    
+}
+
+
