@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+   
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.image-div{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 50px;
+   
+}
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+   
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+}
+.icon{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-div{
+   text-align: center;
+   margin-top: 20px;
+}
+button{
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+}
