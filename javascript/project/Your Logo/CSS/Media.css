@@ -1,0 +1,51 @@
+@media screen and (max-width: 1199px) {
+    html{
+        font-size: 85%;
+    }
+    
+}
+@media screen and (max-width: 1024px) {
+    html{
+        font-size: 75%;
+    }
+}
+@media screen and (max-width: 992px) {
+    html{
+        font-size: 65%;
+    }
+    .header-btn ,  .Sign {
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 55%;
+    }
+    .header-btn , .Sign , .s-main2{
+        display: none;
+    }
+    .s-main{
+        width: 100%;
+       text-align: center;
+    }
+    .btns{
+        margin: auto;
+    }
+    .bars{
+        display: block;
+    }
+}
+@media screen and (max-width: 300px) {
+    html{
+        font-size: 45%;
+    }
+    .header-btn , .Sign{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+}
