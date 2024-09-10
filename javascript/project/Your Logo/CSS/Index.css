@@ -36,6 +36,14 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
+.dropdown{
+    height: 30px;
+    width: 5rem;
+    background-color: #12202f;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
 
 .Image {
     margin-left: 2rem;
@@ -47,6 +55,7 @@ body {
 }
 
 .Sign {
+   
     margin-right: 2rem;
     color: green;
     font-weight: 600;
@@ -75,7 +84,6 @@ body {
     width: 100%;
     background-color: orangered;
     border: none;
-    color: white;
     padding: .6rem;
     border-radius: 1.4rem;
     font-size: large;
