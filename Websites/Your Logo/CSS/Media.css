@@ -1,0 +1,316 @@
+@media screen and (max-width: 1199px) {
+
+    /* font size responsive  */
+    html {
+        font-size: 85%;
+    }
+
+    /* section 5 started  */
+    .s5-main {
+        width: 50%;
+        padding: 5%;
+    }
+
+    .s5-main2>img {
+        width: 50%;
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* font size responsive  */
+    html {
+        font-size: 75%;
+    }
+
+    /* section 4 started  */
+    .tabel4 {
+        left: -10%;
+    }
+
+    .table3 {
+        right: -13%;
+
+    }
+
+    .tabel4>img {
+        width: 70%;
+    }
+
+    .table3>img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    /* font size responsive  */
+    html {
+        font-size: 65%;
+    }
+
+    /* header started  */
+    .header-btn,
+    .Sign {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    /* section 4 started  */
+    .tabel4 {
+        left: -7%;
+    }
+
+    .table3 {
+        right: -21%;
+
+    }
+
+    .tabel4>img {
+        width: 60%;
+    }
+
+    .table3>img {
+        width: 60%;
+    }
+
+    /* section 8 started  */
+    .s8-3cards {
+        width: 100%;
+        display: block;
+        margin-top: 5%;
+    }
+
+    .s8-card {
+        width: 60%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .s9-btn {
+        height: 40px;
+        width: 23%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+    /* header started  */
+    .header-btn,
+    .Sign {
+        display: none;
+    }
+
+    .s-main {
+        width: 100%;
+        text-align: center;
+    }
+
+    .btns {
+        margin: auto;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    /* section 1 started  */
+    .s-container {
+        display: block;
+    }
+
+    .s-main2 {
+        margin: auto;
+    }
+
+    .Lamp-div>.Lamp {
+        display: none;
+    }
+
+    .btns {
+        display: block;
+
+    }
+
+    /* section 5 started  */
+    .s5-main {
+        padding: 2%;
+        text-align: justify;
+    }
+
+    /* section 3 started  */
+
+    .s3-cards {
+        display: block;
+    }
+
+    .s3-sap-card {
+        width: 60%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    /* section 4 started  */
+    .tabel4 {
+        display: none;
+    }
+
+    .table3 {
+        display: none;
+    }
+
+    .s4-main {
+        height: 120px;
+        margin-bottom: 5rem;
+    }
+
+    /* section 5 started  */
+    .s5-main>button {
+        height: 30px;
+        width: 70%;
+        border-radius: 28px;
+        background-color: #df581e;
+        margin-top: 20px;
+        font-size: small;
+        color: white;
+    }
+
+    .s3-sap-card>button {
+        height: 30px;
+        width: 50%;
+        border-radius: 28px;
+        font-size: small;
+
+    }
+
+    .s4-text>button {
+        height: 30px;
+        width: 50%;
+        border-radius: 28px;
+        font-size: small;
+        margin-top: 1rem;
+    }
+
+    .cheeks {
+        height: 6rem;
+        width: 12rem;
+        border-radius: .9rem;
+
+    }
+
+    /* section 8 started  */
+    .s8-3cards {
+        width: 100%;
+        display: block;
+        margin-top: 5%;
+    }
+
+    .s8-card {
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    /* section 9 started  */
+    .leaf-1,
+    .leaf-2,
+    .lemon,
+    .Avocado {
+        width: 10%;
+    }
+
+    .s9-text {
+        height: 50px;
+        width: 80%;
+    }
+
+    .s9-textarea {
+        height: 100px;
+        width: 80%;
+    }
+
+    .s9-btn {
+        height: 40px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 512px) {
+
+  
+
+    /* header started  */
+    .header-btn,
+    .Sign {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    /* section 3 started  */
+
+    .s3-cards {
+        display: block;
+    }
+
+    .s3-sap-card {
+        width: 80%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    /* section 5 strted  */
+    .s5-container {
+        display: block;
+    }
+
+    .s5-main {
+        padding: 0;
+        margin-top: 10%;
+        text-align: justify;
+    }
+
+    .s5-main2>img {
+        margin-top: 5%;
+    }
+
+    /* section 7 started  */
+    .s7-container {
+        padding: 5%;
+
+    }
+
+    .s8-card {
+        width: 80%;
+        display: block;
+        text-align: center;
+        gap: 2%;
+        background-color: white;
+        border-radius: 20px;
+        padding: 1.5rem;
+    }
+
+    .s9-btn {
+        height: 40px;
+        width: 45%;
+    }
+
+    .f1-empty {
+        height: 20px;
+        width: 100%;
+        border: 2px solid black;
+        border-radius: 20px;
+        margin-top: 3rem;
+    }
+
+
+}

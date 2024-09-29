@@ -1,0 +1,626 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebe3cd;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.no1 {
+    border: 1px solid red;
+}
+
+.Main-container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: #12202f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3rem;
+    margin: auto;
+    color: white;
+    padding: .9rem;
+    margin-top: 3rem;
+}
+
+.header-btn {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dropdown{
+    height: 30px;
+    width: 5rem;
+    background-color: #12202f;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Image {
+    margin-left: 2rem;
+    line-height: 50%;
+}
+
+.Image>img {
+    width: 70%;
+}
+
+.Sign {
+   
+    margin-right: 2rem;
+    color: green;
+    font-weight: 600;
+}
+
+.s-container {
+    display: flex;
+    justify-content: center;
+}
+
+.s-main {
+    width: 45%;
+    padding: 1rem;
+}
+
+.btns {
+    display: flex;
+}
+
+.s-lorem {
+    font-weight: bold;
+}
+
+.explore {
+    height: 40px;
+    width: 100%;
+    background-color: orangered;
+    border: none;
+    padding: .6rem;
+    border-radius: 1.4rem;
+    font-size: large;
+    color: #ebe3cd;
+}
+
+.Menu {
+    height: 40px;
+    width: 11rem;
+    padding: .6rem;
+    border-radius: 1.4rem;
+    border: none;
+    background-color: #ebe3cd;
+    font-weight: 600;
+    font-size: large;
+}
+
+.t-Eat {
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #12202f;
+    font-family: "Playfair Display";
+}
+
+.t-resturant {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.s-main2 {
+    width: 55%;
+    position: relative;
+}
+
+.Lamp {
+    width: 8%;
+}
+
+.Lamp-div {
+    text-align: center;
+}
+
+.window {
+    width: 70%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    z-index: -11;
+}
+
+.Ilustration {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.btns-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.plants {
+    width: 23%;
+    position: absolute;
+    bottom: 1.5%;
+    left: -30%;
+}
+
+.bars {
+    display: none;
+    margin-right: 1rem;
+}
+
+.book-btn {
+    border: none;
+    background-color: #ebe3cd;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 4%;
+}
+
+/* section 2 started */
+
+.s2-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 2rem;
+    border-radius: 1.2rem;
+    margin-top: 3rem;
+}
+
+.s2-date {
+    height: 4rem;
+    width: 10rem;
+    border-radius: .9rem;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 4rem;
+    font-weight: 600;
+    margin-top: .7rem;
+}
+
+.calander>p {
+    font-weight: bolder;
+    display: inline;
+}
+
+.s2-email {
+    height: 4rem;
+    width: 13rem;
+}
+
+.cheeks {
+    height: 4rem;
+    width: 10rem;
+    border-radius: .9rem;
+    margin-top: 2%;
+    background-color: #6bb99c;
+    color: #ebe3cd;
+    border: 1px solid blue;
+}
+
+/* section 3 started  */
+.s3-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.s3-container>h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 50px;
+    color: #12202f;
+    font-weight: 900;
+    font-family: "Playfair Display";
+}
+
+.s3-container>p {
+    font-size: 29px;
+    line-height: 40px;
+    color: #eaa73b;
+    font-weight: 600;
+}
+
+.s3-sap-card {
+    background-color: white;
+    width: 30%;
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+
+.s3-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.s3-title {
+    font-size: 40px;
+    color: #12202f;
+    font-weight: 900;
+    font-family: "Playfair Display";
+    margin-top: 1rem;
+}
+
+.s3-p {
+    font-size: large;
+    line-height: 31px;
+    color: #12202f;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.s3-sap-card>button {
+    height: 2.7rem;
+    width: 40%;
+    border-radius: 28px;
+    background-color: #df581e;
+    margin-top: 1rem;
+    font-size: larger;
+    color: white;
+}
+
+/* section 4 started  */
+
+.s4-container {
+    width: 100%;
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+.s4-main {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.tabel4 {
+    position: absolute;
+    left: -8%;
+}
+
+.table3 {
+    position: absolute;
+    right: -10%;
+    z-index: 1;
+}
+
+.tabel4>img {
+    width: 90%;
+}
+
+.table3>img {
+    width: 90%;
+}
+
+.s4-text {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.s4-text>p {
+    font-size: 1.5rem;
+    color: #6bb99c;
+    font-weight: 600;
+}
+
+.s4-text>h2 {
+    font-size: 3rem;
+    color: #12202f;
+    font-weight: 900;
+}
+
+.s4-text>button {
+    height: 2.5rem;
+    width: 30%;
+    border-radius: 1.5rem;
+    background-color: #6bb99c;
+    color: white;
+    font-size: 1rem;
+    border: 1px solid blue;
+}
+
+.s4-main2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.table2 {
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    left: 9.5%;
+    z-index: -1;
+}
+
+.table1 {
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    right: 9%;
+    z-index: -1;
+}
+
+.waiter {
+    width: 35%;
+    margin: auto;
+}
+
+/* section 5 started  */
+
+.s5-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.s5-main {
+    margin: auto;
+    padding: 10%;
+}
+
+.s5-main>h3 {
+    color: #eaa73b;
+}
+
+.s5-main>h2 {
+    font-size: 2.5rem;
+    font-family: "Playfair Display";
+}
+
+.s5-main>p {
+    font-weight: 600;
+}
+
+.s5-main>button {
+    height: 40px;
+    width: 40%;
+    border-radius: 28px;
+    background-color: #df581e;
+    margin-top: 20px;
+    font-size: larger;
+    color: white;
+}
+
+/* section 6 started  */
+
+.s5-main>.s6-btn {
+    background-color: #6bb99c;
+}
+
+/* dection 7 started  */
+
+.s7-container {
+    width: 100%;
+    background-color: white;
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5%; */
+    padding-right: 5%;
+}
+
+/* section 8 started  */
+
+.s8-container>h2 {
+    text-align: center;
+    margin-top: 1rem;
+    color: #12202f;
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: "Playfair Display";
+}
+
+.s8-container>p {
+    text-align: center;
+    margin-top: 1rem;
+    color: #df581e;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+}
+
+.s8-3cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.s8-card {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+
+.card-name {
+    display: inline;
+}
+
+.five-star {
+    margin-top: 1rem;
+}
+
+.s8-card3 {
+    margin: auto;
+    margin-top: 2rem;
+}
+
+/* section 9 started  */
+
+.s9-container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    position: relative;
+}
+
+.s9-container>p {
+    color: #df581e;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.s9-container>h2 {
+    color: #12202f;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: "Playfair Display";
+}
+
+.s9-text {
+    height: 50px;
+    width: 50%;
+    border-radius: 30px;
+    background-color: #ccc1a3;
+    border: 2px solid #faf8ef;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding-left: 3%;
+    color: black;
+    font-weight: 700;
+}
+
+.s9-textarea {
+    height: 100px;
+    width: 50%;
+    border-radius: 30px;
+    background-color: #ccc1a3;
+    border: 2px solid #faf8ef;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding-left: 3%;
+    color: black;
+    font-weight: 900;
+    padding-top: 1%;
+}
+
+.s9-btn {
+    height: 40px;
+    width: 15%;
+    border-radius: 20px;
+    background-color: #6bb99c;
+    margin-top: 20px;
+    font-size: medium;
+    color: black;
+    font-weight: 700;
+}
+
+.leaf-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.leaf-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.lemon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Avocado {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* footer started  */
+
+.f1-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+    background-color: #eaa73b;
+    margin-top: 5rem;
+}
+
+.f1-div-1 {
+    margin-left: 2%;
+}
+
+.f1-div-1>h2,
+.f1-div-2>h2,
+.f1-div-3>h2,
+.f1-div-3>p {
+    font-size: 2rem;
+    color: #ebe3cd;
+    font-weight: 900;
+    font-family: "Playfair Display";
+}
+
+.f1-div-1>ul>li,
+.f1-div-2>ul>li {
+    list-style-type: none;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.f1-div-3 {
+    width: 40%;
+    padding: 4%;
+}
+
+.f1-div-3>h2 {
+    font-size: 2rem;
+    font-family: "Playfair Display";
+    text-align: end;
+}
+
+.f1-div-3>p {
+    font-size: 2rem;
+    font-family: "Playfair Display";
+    text-align: end;
+    font-weight: 600;
+}
+
+.f1-empty {
+    height: 40px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+
+.socal-media {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-top: 3rem;
+}

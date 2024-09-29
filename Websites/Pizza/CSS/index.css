@@ -1,0 +1,415 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**************************** same class of all  ********************************/
+p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flexing {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*************************** header started  ********************************/
+
+.bg-img {
+    background-image: linear-gradient(109.6deg, rgb(0, 0, 0) 30.2%, rgba(11, 132, 145, 0) 85.1%), url("../IMG/Hero-section-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px 0px;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.nav-btn {
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+    color: white;
+    padding: 30px 80px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.hero-bgimg {
+    width: 60px;
+    justify-content: space-between;
+}
+
+.title-pizza {
+    font-size: 79px;
+}
+
+.hero-text {
+    padding: 100px 50px 150px 50px;
+    color: white;
+
+}
+
+.hero-text>p {
+    padding: 20px 0px 30px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.nav-bars {
+    display: none;
+}
+
+/**************************** main section started  ***************************/
+
+.s1-bg-color {
+    background-color: #222222;
+    overflow: hidden;
+    color: white;
+    position: relative;
+    z-index: -2;
+    padding: 50px;
+
+}
+
+.s1-main,
+.s3-main {
+    text-align: center;
+
+}
+
+.size-h2 {
+    font-size: 55px;
+}
+
+.size-p {
+    margin: auto;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.card {
+    padding: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.card>img {
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+
+.card>p {
+    padding: 10px 40px;
+}
+
+.positions-item>img {
+    position: absolute;
+    width: 100px;
+    z-index: -1;
+}
+
+.fulvadi {
+    top: -50px;
+    right: 250px;
+}
+
+.greb {
+    right: 10px;
+    top: 35%;
+}
+
+.jinga {
+    bottom: 25px;
+    right: -20px;
+}
+
+.kothmir {
+    bottom: 20px;
+    left: 50px;
+}
+
+.leafe {
+    top: 90px;
+    right: 80px;
+}
+
+.masroom {
+    width: 80px !important;
+    left: 50px;
+    top: 45%;
+}
+
+.mirchi {
+    width: 70px !important;
+    bottom: 20px;
+    right: 32%;
+}
+
+.onione {
+    width: 60px !important;
+    left: 37%;
+    bottom: 20px;
+}
+
+.tomato {
+    top: 90px;
+    left: 150px;
+}
+
+.jinga2 {
+    top: 100px;
+    left: -30px;
+    transform: rotate(180deg);
+}
+
+/******************************** section 2 started  ***********************************/
+
+.s2-end {
+    display: flex;
+    justify-content: end;
+}
+
+.bg-img2 {
+    background-image: url("../IMG/section3-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.s2-main {
+    width: 40%;
+    padding: 170px 0px;
+}
+
+.s2-main>h2 {
+    font-size: 65px;
+}
+
+.s2-main>p {
+    font-size: 20px;
+    padding: 30px 50px 40px 0px;
+}
+
+/***************************** section 3 started  ********************************/
+
+.s3-main {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.main-circle {
+    gap: 100px;
+    text-align: center;
+    padding: 80px;
+}
+
+.static-circle {
+    height: 200px;
+    width: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+    font-size: 27px;
+    align-content: center;
+}
+
+/*************************** section 4 started  ***************************/
+
+.bg-img3 {
+    background-image: url("../IMG/bg-img-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+/**************************** section 5 started  *********************************/
+
+.bg-img4 {
+
+    background-image: linear-gradient(109.6deg, rgba(0, 0, 0, 0.519) 30.2%, rgba(0, 0, 0, 0.664) 85.1%), url("../IMG/bg-img-4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.s4-main {
+    text-align: center;
+    padding: 200px 100px;
+}
+
+.s4-main>p {
+    font-size: 33px;
+}
+
+.s4-main>h2 {
+    font-size: 45px;
+    padding-top: 20px;
+}
+
+/******************************* section 6 started  *************************************/
+
+.s6-main {
+    text-align: center;
+    padding: 120px;
+}
+
+.s6-main>input {
+    height: 50px;
+    width: 60%;
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.fulvadi2 {
+    top: 30px;
+    right: 27%;
+}
+
+.greb2 {
+    right: 20px;
+    bottom: 25%;
+}
+
+.positions-item2>img {
+    position: absolute;
+    width: 100px;
+    z-index: -1;
+}
+
+.jinga3 {
+
+    bottom: 35px;
+    right: 150px;
+}
+
+.kothmir2 {
+    bottom: 20px;
+    left: 25%;
+}
+
+.leafe2 {
+    top: 160px;
+    right: 100px;
+}
+
+.masroom2 {
+    width: 80px !important;
+    left: 150px;
+    bottom: 30%;
+}
+
+.mirchi2 {
+    width: 60px !important;
+    bottom: 20px;
+    right: 30%;
+}
+
+.onione2 {
+    width: 65px !important;
+    left: 43%;
+    bottom: 20px;
+}
+
+.tomato2 {
+    top: 30px;
+    left: 25%;
+}
+
+.jinga4 {
+    top: 100px;
+    left: 90px;
+    transform: rotate(180deg);
+}
+
+/****************************** footer started  **********************************/
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.bg-black {
+    background-color: #111111;
+    color: white;
+}
+
+.f-main {
+    padding: 150px 0px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    gap: 20px;
+}
+
+.f-row1 {
+    width: 500px;
+}
+
+.f-main li {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.f-main p {
+    font-size: 30px;
+}
+
+#f-lorem {
+    font-size: 20px;
+    margin-top: 20px;
+    padding-right: 40px;
+}
