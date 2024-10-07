@@ -1,0 +1,16 @@
+@media (max-width: 1198.98px) { 
+.orange-shoes{
+    width: 400px;
+}
+    
+ }
+@media (max-width: 575.98px) { 
+    .free-exp{
+        display: none;
+    }
+    
+.fs-size-15{
+    font-size: small;
+}
+    
+ }
