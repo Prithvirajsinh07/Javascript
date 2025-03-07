@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 600px;
+    width: 95%;
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+    margin-top: 2rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.writer{
+    height: 100%;
+    width: 55%; 
+  
+}
+textarea{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    resize: none;
+display: block;   
+   border: 1px solid gray;
+   padding: 2rem;
+   font-size:large;
+   border-radius: 1rem;
+  
+}
+.counter{
+    height:100%;
+    width: 45%;
+    padding: 2rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+   
+}
+.all-counts{
+    height: 5rem;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+   
+}
+
+.timer>div{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    
+}
+.number{
+    font-size: 2rem;
+}
+.btns{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+
+}
+.btns>button{
+    height: 4rem;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: auto;
+    
+}

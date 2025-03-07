@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Array Records</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: crimson;
+        color: aliceblue;
+      }
+      .container {
+        width: 90%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Static Array Records</h1>
+      <form action="/add" method="post">
+        <input type="text" name="record" required />
+        <button type="submit">Add Record</button>
+      </form>
+
+      <ul>
+        <% records.forEach((record, index) => { %>
+        <li>
+          <%= record %>
+          <form
+            action="/edit/<%= index %>"
+            method="post"
+            style="display: inline"
+            enctype=""
+          >
+            <button type="submit">Edit</button>
+          </form>
+          <form
+            action="/delete/<%= index %>"
+            method="get"
+            style="display: inline"
+          >
+            <button type="submit">Delete</button>
+          </form>
+        </li>
+        <% }) %>
+      </ul>
+    </div>
+  </body>
+</html>
+
+

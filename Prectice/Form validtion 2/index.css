@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+#inputs{
+    height: 50px;
+    width: 100%;
+    font-size: larger;
+    
+}
+.container{
+    height: auto;
+    width: 30%;
+}

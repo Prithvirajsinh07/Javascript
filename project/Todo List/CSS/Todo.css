@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 400px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 2rem;
+    overflow: scroll;
+}
+.main{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.main2{
+    min-height: 50px;
+    margin: 10px;
+   background-color: beige;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+ 
+}
+input{
+    height: 50px;
+    width: 70%;
+    padding: 1rem;
+}
+button{
+    height: 50px;
+    width: 20%;
+}
+p{
+    width: 80%;
+    margin: auto;
+}
+.edit{
+    margin-right: 30px;
+    display: inline;
+}
+.dustbin{
+    margin-right: 20px;
+}
+.Edit{
+    display: none;
+}
